@@ -1,44 +1,76 @@
-DummyJSON Client - Java 17 e Spring Boot 3.2.5
-Descrição do Projeto
-Este projeto é um microsserviço Java que interage com a API pública DummyJSON para realizar operações de busca de produtos. O projeto foi migrado para Java 17 e Spring Boot 3.2.5.
+# DummyJSON Client
 
-Desenvolvido por Roger Braz.
+## 🚀 Sobre o Projeto
+Este projeto é um microsserviço desenvolvido em **Java 17** e **Spring Boot 3.2.5** que interage com a API pública **DummyJSON** para realizar operações de busca de produtos.
 
-Como Executar o Projeto com Docker
-Pré-requisitos
-Docker instalado.
+✨ **Principais Características:**
+- ✅ **Migrado para Java 17 e Spring Boot 3.2.5**
+- ✅ **Estruturado para execução via Docker**
+- ✅ **Documentação via OpenAPI / Swagger**
 
-Docker Compose instalado.
+---
 
-Passos para Executar
-Clone o repositório:
+## 🛠️ Tecnologias Utilizadas
+- ☕ **Java 17**
+- 🚀 **Spring Boot 3.2.5**
+- 🐳 **Docker & Docker Compose**
+- 📖 **OpenAPI / Swagger**
 
-bash
-Copy
-git clone https://github.com/WendellTufano/code-challenge-migration.git
-cd dummyjson-client
-Construa e execute o contêiner:
+---
 
-bash
-Copy
-docker-compose up -d
-Acesse o serviço:
+## ▶️ Como Executar o Projeto com Docker
 
-O serviço estará disponível em http://localhost:8080.
+### 📌 Pré-requisitos
+Certifique-se de ter os seguintes requisitos instalados:
+- 🔹 [Docker](https://www.docker.com/get-started)
+- 🔹 [Docker Compose](https://docs.docker.com/compose/install/)
 
-Links Úteis
-Swagger UI: Acesse a documentação da API em http://localhost:8080/swagger-ui.html.
+### 📌 Passos para Execução
 
-OpenAPI JSON: Acesse o JSON da API em http://localhost:8080/v3/api-docs.
+1️⃣ **Clone o repositório:**
+```bash
+ git clone https://github.com/WendellTufano/code-challenge-migration.git
+ cd dummyjson-client
+```
 
-Comandos Adicionais
-Verificar Logs do Contêiner
-bash
-Copy
-docker-compose logs -f
-Parar o Contêiner
-bash
-Copy
-docker-compose down
-Contato
-Desenvolvido por Roger Braz.
+2️⃣ **Construa e execute o contêiner:**
+```bash
+ docker-compose up --build -d
+```
+
+3️⃣ **Acesse o serviço:**
+- O serviço estará disponível em: **[http://localhost:8080](http://localhost:8080)**
+
+---
+
+## 📜 Documentação da API
+- 📌 **Swagger UI**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+- 📌 **OpenAPI JSON**: [http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs)
+
+---
+
+## 🔧 Comandos Adicionais
+
+🔍 **Verificar Logs do Contêiner**
+```bash
+ docker-compose logs -f
+```
+
+🛑 **Parar o Contêiner**
+```bash
+ docker-compose down
+```
+
+---
+
+## 📞 Contato
+💡 Desenvolvido por **Roger Braz**.
+
+📧 **Email:** [seuemail@email.com](mailto:seuemail@email.com)  
+🔗 **LinkedIn:** [linkedin.com/in/rogerbraz](https://www.linkedin.com/in/rogerbraz)
+
+---
+
+📝 **Licença**
+Este projeto está sob a licença **MIT**. Consulte o arquivo **LICENSE** para mais detalhes.
+
