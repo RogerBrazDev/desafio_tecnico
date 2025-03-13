@@ -1,0 +1,24 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: on_param
+    include-exception: true
+
+spring:
+  devtools:
+    restart:
+      enabled: true # Habilita o hot reload
+      exclude: "**/*.html,**/*.css,**/*.js"  # Ignorar mudanças nesses tipos de arquivo
+    livereload:
+      enabled: true  # Habilita o LiveReload para recarregar automaticamente no navegador
+
+# Configuração do SpringDoc OpenAPI
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs

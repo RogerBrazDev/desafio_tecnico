@@ -1,0 +1,5 @@
+com/example/dummyjson/config/WebClientConfig.class
+com/example/dummyjson/controller/ProductControllerTest.class
+com/example/dummyjson/service/ProductServiceIntegrationTest.class
+com/example/dummyjson/dto/ProductTest.class
+com/example/dummyjson/controller/HealthCheckControllerTest.class
