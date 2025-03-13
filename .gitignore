@@ -1,0 +1,33 @@
+# Ignorar a pasta target (gerada pelo Maven)
+target/
+
+# Ignorar arquivos de configuração do IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar arquivos do VSCode
+.vscode/
+
+# Ignorar arquivos do Eclipse
+.settings/
+.classpath
+.project
+bin/
+
+# Ignorar arquivos do macOS
+.DS_Store
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Ignorar arquivos do Maven
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
